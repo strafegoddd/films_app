@@ -1,0 +1,31 @@
+# Python
+**/__pycache__/
+**/*.py[cod]
+*.sqlite3
+*.db
+
+# Virtual environments
+**/venv/
+.env
+
+# Flask & logs
+instance/
+*.log
+
+# Node (React)
+**/node_modules/
+**/dist/
+**/build/
+*.lock
+npm-debug.log*
+
+# VSCode & OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+
+# Git
+.gitmodules
